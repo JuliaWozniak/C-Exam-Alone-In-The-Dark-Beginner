@@ -5,10 +5,10 @@ int main(void)
 	int i;
 	int c;
 
-	i = 26;
-	while (--i >= 0)
+	i = -1;
+	while (++i < 26)
 	{
-		if (i % 2 == 0)
+		if (i % 2 == 1)
 			c = 'a' + i + 'A' - 'a';
 		else
 			c = 'a' + i;
